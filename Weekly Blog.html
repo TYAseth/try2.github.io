@@ -1,0 +1,268 @@
+<!  DOCTYPEhtml>
+<html>
+<head> 
+<html> 
+ <head> 
+  <title>My Website</title> 
+  <link rel="stylesheet" type="text/css" href="web2.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ </head> 
+  
+ </head> 
+ 
+ <style>
+/* Font */
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: Arial, Calibri, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  height: 250px;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  text-align: centre;
+  flex-grow: 1;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.card_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ </style>
+ 
+ 
+ 
+ 
+ <body background = "201.png">
+  <div id="container"> 
+   <div id="header"> 
+    <h1>Weekly Blog</h1> 
+   </div> 
+    
+    
+   <div id="content"> 
+    <div id="nav"> 
+	<h3> 
+      <li>
+	  <a class="" href="index.html">Home</a> 
+      <a class ="" href="aboutpage.html">About</a> 
+      <a class = "" href="contact.html">Assignment</a>
+	  <a class = "active" href="Weekly Blog.html">Weekly Blog</a>
+      <a class = "" href = "finalproject.html">Final Project</a></li>	  
+     
+     </h3> 
+     
+    </div> 
+     	<h2 style="text-align:center;">Assignments</h2> 
+		
+				<!-- 	/*<cards>*/ -->
+
+				
+			<div class="main">
+
+			  <ul class="cards">
+			  
+			  
+				<li class="cards_item" >
+				<a href="assignments/Fablab.html">
+				  <div class="card">
+					<div class="card_image"><img src="fablab-logo.png"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Fablab Safety</h2>
+					  <p class="card_text">Short description of my fablab safety</p>
+					  <a href="assignments/Fablab.html">
+					  </a>
+					</div>
+				  </div>
+				</li></a>
+				
+				<li class="cards_item">
+				<a href="assignments/HTMLandCSS.html">
+				  <div class="card">
+					<div class="card_image"><img src="what-is-html-3.jpg"></div>
+					<div class="card_content">
+					  <h2 class="card_title">HTML and CSS webpage building</h2>
+					  <p class="card_text">Short description of how I built a site using HTML and CSS</p>
+					  </a>					
+					  </div>
+				  </div>
+				</li> </a>
+				<li class="cards_item">
+				<a href = "assignments/2D modelling.html">
+				  <div class="card">
+					<div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+					<div class="card_content">
+					  <h2 class="card_title">2D modelling</h2>
+					  <p class="card_text">How I made 2D drawings using GIMP and INKSCAPE</p>
+					  </a>
+					</div>
+				  </div>
+				</li></a>
+				<li class="cards_item">
+				 <a href = "assignments/3D modelling.html">
+				  <div class="card">
+					<div class="card_image"><img src="https://picsum.photos/500/300/?image=14"></div>
+					<div class="card_content">
+					  <h2 class="card_title">3D modelling</h2>
+					  <p class="card_text">My 3D mmodels using fusion 360</p>
+					  </a>
+					</div>
+				  </div>
+				</li></a>
+				<li class="cards_item">
+				<a href = "assignments/3D printing.html">
+				  <div class="card">
+					<div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+					<div class="card_content">
+					  <h2 class="card_title">3D printing</h2>
+					  <p class="card_text">My 3D printing </p>
+					  </a>
+					</div>
+				  </div>
+				</li></a>
+				<li class="cards_item">
+				<a href = "assignments/lasercutting.html">
+				  <div class="card">
+					<div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Laser Cutting</h2>
+					  <p class="card_text">My Laser Cutting </p>
+					  </a>
+					</div>
+				  </div>
+				</li></a>
+				<li class="cards_item">
+				 <a href = "assignments/Arduino.html">
+				  <div class="card">
+					<div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+					<div class="card_content">
+					  <h2 class="card_title">Arduino</h2>
+					  <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+					  </a>
+					</div>
+				  </div>
+				</li>
+			  </ul>
+			</div>
+
+
+     
+	 
+	 
+	 
+	 
+   </div> 
+     
+   <div id="footer"> 
+   Copyright &copy; 2022 SAS 
+   </div> 
+  </div> 
+ </body> 
+  
+</html>
